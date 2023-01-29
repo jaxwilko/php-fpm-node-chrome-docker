@@ -4,7 +4,8 @@ This repo contains the build scripts for a docker image containing php, node and
 
 ### Notes
 
-When running chrome, use the following flags:
-```bash
---headless --no-sandbox
-```
+- Chrome driver is installed as `/usr/local/bin/chromedriver`
+- When running chrome, use the following flags:
+    ```bash
+    --headless --no-sandbox
+    ```
